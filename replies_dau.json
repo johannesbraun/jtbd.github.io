@@ -1,0 +1,127 @@
+{
+ "name": "More Replies per DAU",
+ "children": [
+  {
+    "name": "Specificity",
+    "children": 
+    [
+      {
+        "name": "Search",
+        "children": [
+          {"name": "Relevance",
+          "children": [
+          {"name": "Recall",
+            "children": [
+              {"name": "Visual Search"},
+              {"name": "Search2vec"},
+              {"name": "Dr Strange: Query understanding"}
+            ]},
+          {"name": "Ranking",
+          "children":[
+          {"name": "LTR"},
+          {"name": "Diversity"},
+          {"name": "Personalized ranking"},
+          {"name": "Query relevance factors"}
+          ]}
+          ]},
+          {
+            "name": "Assistance",
+            "children": [
+              {"name": "Autocomplete", 
+                "children": [
+                  {"name": "Personalized autocomplete"},
+                  {"name": "Ngram bandits"},
+                  {"name": "Ngram collab filtering"}
+                ]},
+              {"name": "Spellcheck"},
+              {"name": "Search as you type"},
+              {"name": "Related searches"}
+            ]
+          },
+         {"name": "Navigational search"}
+        ]
+      },
+      {
+        "name": "Category Browse",
+        "children": [
+          {"name": "Path finding: Don't make me type",
+            "children":[
+              {"name": "Introduce new filters"},
+              {"name": "Conversational filters"},
+              {"name": "Keyword based filters"}
+            ]},
+          {"name": "Pick up where I left off"},
+          {"name": "Overview whats availlable"},
+          {"name": "Dynamic Navigation based on preferences"}
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Item quality",
+    "children": [
+      {"name": "Availlability",
+      "children":[
+      {"name": "CCCP"},
+      {"name": "Transaction detection"}
+      ]},
+      {"name": "Liquidity",
+      "children": [
+        {"name": "Use liquididty prediction in ranking"},
+        {"name": "Use price in ranking"},
+        {"name": "Expand liquididty prediction",
+          "children":[
+            {"name": "Transaction detection"},
+            {"name": "Include images"}
+          ]},
+        {"name": "Seller quality"},
+        {"name": "Momentum"}
+      ]},
+      {"name": "Good Deals"},
+      {"name": "Trust"}
+    ]
+  },
+  {
+    "name": "Serendipity",
+    "children": [
+      {
+        "name": "Home Feed",
+        "children": [
+        {
+          "name": "Personalized content",
+          "children": [
+          {
+            "name": "Inferring user preferences",
+            "children": [
+              {"name": "dynamic category preferences"},
+              {"name": "dynamic price preferences"},
+              {"name": "user segmentation"},
+              {"name": "funnel detection"},
+              {"name": "Geo profile"}
+            ]},
+          {
+            "name": "Intent follow up",
+            "children":[
+              {"name": "Nightmare"},
+              {"name": "Recent searches"},
+              {"name": "Saved Searches"}
+            ]},
+          {"name": "u2i: Kingsman"},
+          {"name": "u2u: Users similar to you searched for"}
+          ]},
+        {"name": "Social"}, 
+        {"name": "Trends",
+          "children": [
+            {"name": "Trending in your location"},
+            {"name": "Trending in November"}
+          ]},
+        {"name": "Surprise"}
+    ]
+    },
+    {
+      "name": "Notifications"
+    }
+    ]
+  }
+]
+}

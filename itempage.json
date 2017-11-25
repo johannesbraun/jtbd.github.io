@@ -1,0 +1,58 @@
+{
+ "name": "Increase Replies via related items",
+ "children": [
+  {
+    "name": "Alternatives",
+    "children": 
+    [
+      {
+        "name": "Similar items",
+        "children": [
+          {"name": "Content based similarity: structured data",
+            "children": [
+              {"name": "Same seller"},
+              {"name": "Same category + attributes"}
+            ]},
+          {
+            "name": "Search by example",
+            "children": [
+              {"name": "Solr MLT"},
+              {"name": "Image based search"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Related items",
+        "children": [
+          {"name": "CF: user who viewed this item also viewed"},
+          {"name": "what other users did after seeing this item"},
+          {"name": "hybrid recommender: kingsman"},
+          {"name": "i2i bandits"}
+        ]
+      },
+      {
+        "name": "Better deal",
+        "children": [
+          {"name": "let user compare"},
+          {"name": "olx gives information about the deal"}
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Complementary",
+    "children": [
+      {"name": "different based on structured data"},
+      {"name": "different based on embedding distance"}
+    ]
+  },
+  {
+    "name": "Shopping basket",
+    "children":[
+     {"name": "Previously viewed"},
+      {"name": "Bookmarks"}
+    ]
+  }
+]
+}

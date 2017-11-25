@@ -1,0 +1,38 @@
+{
+ "name": "Reduce Nullsearches",
+ "children": [
+  {
+    "name": "Be specific without missing out",
+    "children": [
+      {"name": "drop tokens from long queries"},
+      {"name": "expand tokens to more generic filters "},
+      {"name": "Understand synonyms"}
+    ]
+  },
+  {
+    "name": "Search in natural language",
+    "children":[
+      {
+        "name": "Filter understanding",
+        "children": [
+         {"name": "'iphone under $200', 'bakkie under 100k miles'"},
+         {"name": "category extraction: 'looking for a car'"},
+         {"name": "'car swap'"}
+        ]},
+      {"name": "Ignore Stop words"},
+      {"name": "Identify locations"},
+      {"name": "Search by motivation: 'father day gift', 'halloween costume'"}
+    ]
+    },
+  {"name": "Search in a specific area",
+  "children":[
+    {
+      "name": "User selects area",
+      "children": [
+       {"name": "Location search input field"},
+       {"name": "Location tree filter"},
+       {"name": "Location Map filter"}
+      ]},
+    {"name": "Query location extraction"}]
+  }]
+}
